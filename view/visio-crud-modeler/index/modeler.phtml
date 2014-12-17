@@ -21,9 +21,12 @@
         <div class="box box-element">
             <div class="view">
                 <h3>Data source </h3>
-                <ul>
+                <ul class="list-unstyled">
                     <?foreach ($tables as $table):?>
-                        <li><a href="#" class="show-fields" data-form="<?=$table?>"><?=$table?></a></li>
+                        <li>
+                            <input type="checkbox" name="use_tables[]" value="<?=$table?>" title="Use this table" class="use_tables" />
+                            <a href="#" class="show-fields" data-form="<?=$table?>"><?=$table?></a>
+                        </li>
                     <?endforeach;?>
                 </ul>
             </div>
