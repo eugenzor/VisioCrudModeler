@@ -1,5 +1,5 @@
 {
-    "name": "hyphers/visio-crud-zf2",
+    "name": "eugenzor/VisioCrudModeller",
     "description": "CRUD generator dedicated to ZF2",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -8,7 +8,7 @@
     ],
     "authors": [
         {
-            "name": "HyPHPers Isobar Poland  (Piotr Duda , Przemysław Wlodkowski, Bartlomiej Wereszczynski , Jacek Pawelec , Robert Bodych)"
+            "name": "HyPHPers Isobar Poland  (Piotr Duda , Przemysław Wlodkowski, Bartlomiej Wereszczynski , Jacek Pawelec , Robert Bodych), Eugene Galenko"
         }
     ],
     "require": {
